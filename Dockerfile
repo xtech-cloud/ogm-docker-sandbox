@@ -41,6 +41,7 @@ RUN mkdir -p /ogm
 
 EXPOSE 22
 COPY entry.sh /usr/bin/
+RUN chmod +x /usr/bin/entry.sh
 
-ENTRYPOINT ["entry.sh"]
+ENTRYPOINT ["/usr/bin/entry.sh"]
 
