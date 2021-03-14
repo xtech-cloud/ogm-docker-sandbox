@@ -40,7 +40,7 @@ RUN echo root:ogmsandbox > /root/passwd
 RUN mkdir -p /ogm
 
 EXPOSE 22
-COPY entry.sh /usr/local/bin/
+COPY entry.sh /usr/bin/
 
 ENTRYPOINT ["entry.sh"]
 
