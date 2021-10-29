@@ -3,11 +3,11 @@
 # OpenGM Sandbox
 #
 # ENV: PROD
-# VERSION: 3.12
+# VERSION: 3.14
 #
 # *************************************
 
-FROM alpine:3.12
+FROM alpine:3.14
 
 MAINTAINER XTech-Cloud "xtech.cloud"
 
